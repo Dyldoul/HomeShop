@@ -11,4 +11,9 @@ public class Client {
     public String getAddress() {
         return address;
     }
+
+    public Client(String fullname, String address) {
+        this.fullname = fullname;
+        this.address = address;
+    }
 }
