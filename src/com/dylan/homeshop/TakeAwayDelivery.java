@@ -1,4 +1,13 @@
 package com.dylan.homeshop;
 
-public class TakeAwayDelivery {
+public class TakeAwayDelivery implements Delivery {
+
+    @Override
+
+    public double getPrice() {
+
+        return 0;
+
+    }
+
 }

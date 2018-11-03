@@ -8,9 +8,11 @@ public class Bill {
 
     private Client client;
     private Map<Product, Integer> products = new HashMap<Product, Integer>();
+    private Delivery delivery;
 
-    public Bill(Client client){
+    public Bill(Client client, Delivery delivery){
         this.client = client;
+        this.delivery = delivery;
     }
 
     /**
@@ -19,14 +21,17 @@ public class Bill {
      * @param quantite La quantité voulue
      */
     public void addPrduct(Product product, Integer quantite){
+
         this.products.put(product, quantite);
     }
 
     public Client getClient() {
+
         return client;
     }
 
     public Map<Product, Integer> getProducts() {
+
         return products;
     }
 
