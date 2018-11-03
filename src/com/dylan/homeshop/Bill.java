@@ -1,12 +1,13 @@
 package com.dylan.homeshop;
 
 import java.beans.Customizer;
+import java.util.HashMap;
 import java.util.Map;
 
 public class Bill {
 
     private Client client;
-    private Map<Product, Integer> products;
+    private Map<Product, Integer> products = new HashMap<Product, Integer>();
 
     public Bill(Client client){
         this.client = client;
