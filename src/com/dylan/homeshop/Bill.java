@@ -20,7 +20,7 @@ public class Bill {
      * @param product Le produit iajouté
      * @param quantite La quantité voulue
      */
-    public void addPrduct(Product product, Integer quantite){
+    public void addProduct(Product product, Integer quantite){
 
         this.products.put(product, quantite);
     }
@@ -33,6 +33,14 @@ public class Bill {
     public Map<Product, Integer> getProducts() {
 
         return products;
+    }
+
+    public void generate(Writer){
+
+    }
+
+    public double getTotal(){
+
     }
 
 
