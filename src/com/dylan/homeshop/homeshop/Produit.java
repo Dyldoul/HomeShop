@@ -8,9 +8,7 @@ public class Produit {
     private double prix;
 
 
-    //Constructeurs
-    public Produit() {
-    }
+    //Constructeur
 
     public Produit(String nom, String description, double prix) {
         this.nom = nom;

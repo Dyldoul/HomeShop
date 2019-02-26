@@ -6,6 +6,13 @@ public class Client {
     private String adresse;
 
 
+    //Constructeur
+
+    public Client(String nomComplet, String adresse) {
+        this.nomComplet = nomComplet;
+        this.adresse = adresse;
+    }
+
     //Getters
     public String getNomComplet() {
         return nomComplet;
