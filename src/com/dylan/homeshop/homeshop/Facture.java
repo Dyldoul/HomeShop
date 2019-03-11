@@ -7,9 +7,11 @@ public class Facture {
 
     private Client client;
     private Map<Produit, Integer> produits = new HashMap<Produit, Integer>();
+    private Delivery delivery;
 
-    public Facture(Client client) {
+    public Facture(Client client, Delivery delivery) {
         this.client = client;
+        this.delivery = delivery;
     }
 
     /**
