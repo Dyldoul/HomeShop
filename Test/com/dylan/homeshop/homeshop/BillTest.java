@@ -1,5 +1,7 @@
 package com.dylan.homeshop.homeshop;
 
+import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class BillTest {
